@@ -9,21 +9,21 @@ import connectCloudinay from './configs/cloudinary.js';
 import courseRouter from './routes/courseRoute.js';
 import userRouter from './routes/userRoutes.js';
 
-const app = express();
+const app = express()
 
 
 
-await connectDB();
+await connectDB()
 await connectCloudinay();
 
 
 
-app.use(cors());
+app.use(cors())
 app.use(clerkMiddleware())
 
 
 
-app.get('/', (req,res)=>{res.send("Backend is Ready")})
+app.get('/', (req,res)=>{res.send("Api Working")})
 app.post('/clerk', express.json(), clerkWebhooks)
 app.use('/api/educator', express.json(), educatorRouter);
 app.use('/api/course', express.json(), courseRouter);
@@ -33,9 +33,9 @@ app.use('/api/user', express.json(), userRouter);
 
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000
 
 app.listen(PORT, ()=> {
-    console.log(`Server is running on ${PORT}`);
+    console.log(`Server is running on ${PORT}`)
     
 })
