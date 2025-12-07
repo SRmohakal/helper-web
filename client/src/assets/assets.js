@@ -15,9 +15,9 @@ import course_3_thumbnail from './course_3.png'
 import course_4_thumbnail from './course_4.png'
 import star from './rating_star.svg'
 import star_blank from './star_dull_icon.svg'
-import profile_img_1 from './profile_img_1.png'
-import profile_img_2 from './profile_img_2.png'
-import profile_img_3 from './profile_img_3.png'
+import profile_img_1 from './Ataur.jpg'
+import profile_img_2 from './Sr.jpg'
+import profile_img_3 from './sk.jpg'
 import arrow_icon from './arrow_icon.svg'
 import down_arrow_icon from './down_arrow_icon.svg'
 import time_left_clock_icon from './time_left_clock_icon.svg'
@@ -39,8 +39,8 @@ import play_icon from './play_icon.svg'
 import blue_tick_icon from './blue_tick_icon.svg'
 import course_4 from './course_4.png'
 import profile_img from './profile_img.png'
-import profile_img2 from './profile_img2.png'
-import profile_img3 from './profile_img3.png'
+import profile_img2 from './Sr.jpg'
+import profile_img3 from './sk.jpg'
 import lesson_icon from './lesson_icon.svg'
 
 
@@ -94,7 +94,7 @@ export const assets = {
 export const dummyEducatorData = {
     "_id": "675ac1512100b91a6d9b8b24",
     "name": "Shourov Roy",
-    "email": "user.greatstack@gmail.com",
+    "email": "user.royshourov71@gmail.com",
     "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yclFkaDBOMmFqWnBoTTRBOXZUanZxVlo0aXYifQ",
     "createdAt": "2024-12-12T10:56:17.930Z",
     "updatedAt": "2024-12-12T10:56:17.930Z",
@@ -103,21 +103,21 @@ export const dummyEducatorData = {
 
 export const dummyTestimonial = [
     {
-        name: 'Donald Jackman',
+        name: 'MD Ataur Rahman',
         role: 'SWE 1 @ Amazon',
         image: assets.profile_img_1,
         rating: 5,
         feedback: 'I’ve been using this LMS for almost two years, and it has made learning so much easier. The interface is clean and simple, and navigating through courses feels effortless. Perfect for students!',
     },
     {
-        name: 'Richard Nelson',
+        name: 'Shourov Roy',
         role: 'SWE 2 @ Samsung',
         image: assets.profile_img_2,
         rating: 4,
         feedback: 'This LMS has been a game-changer for my studies. It’s super user-friendly, the lessons load quickly, and everything is well-organized. I can track my progress without any confusion. Highly recommended!',
     },
     {
-        name: 'James Washington',
+        name: 'MD Tanvir',
         role: 'SWE 2 @ Google',
         image: assets.profile_img_3,
         rating: 4.5,
@@ -133,7 +133,7 @@ export const dummyDashboardData = {
             "student": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Shourov Roy",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+                "imageUrl": "https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg"
             }
         },
         {
@@ -141,7 +141,7 @@ export const dummyDashboardData = {
             "student": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Shourov Roy",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+                "imageUrl": "https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg"
             }
         },
         {
@@ -149,7 +149,7 @@ export const dummyDashboardData = {
             "student": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Shourov Roy",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+                "imageUrl": "https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg"
             }
         },
         {
@@ -157,7 +157,7 @@ export const dummyDashboardData = {
             "student": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Shourov Roy",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+                "imageUrl": "https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg"
             }
         },
         {
@@ -165,7 +165,7 @@ export const dummyDashboardData = {
             "student": {
                 "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
                 "name": "Shourov Roy",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+                "imageUrl": "https://images.pexels.com/photos/1172207/pexels-photo-1172207.jpeg"
             }
         }
     ],
@@ -177,7 +177,7 @@ export const dummyStudentEnrolled = [
         "student": {
             "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "name": "MD Ataur Rahman",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "imageUrl": "https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg"
         },
         "courseTitle": "Introduction to JavaScript",
         "purchaseDate": "2024-12-20T08:39:55.509Z"
@@ -186,7 +186,7 @@ export const dummyStudentEnrolled = [
         "student": {
             "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "name": "MD Ataur Rahman",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "imageUrl": "https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg"
         },
         "courseTitle": "Introduction to JavaScript",
         "purchaseDate": "2024-12-20T08:59:49.964Z"
@@ -195,7 +195,7 @@ export const dummyStudentEnrolled = [
         "student": {
             "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "name": "MD Ataur Rahman",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "imageUrl": "https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg"
         },
         "courseTitle": "Advanced Python Programming",
         "purchaseDate": "2024-12-20T11:03:42.931Z"
@@ -204,7 +204,7 @@ export const dummyStudentEnrolled = [
         "student": {
             "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
             "name": "MD Ataur Rahman",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "imageUrl": "https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg"
         },
         "courseTitle": "Web Development Bootcamp",
         "purchaseDate": "2024-12-20T11:04:48.798Z"
@@ -296,21 +296,21 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter1",
                 "chapterOrder": 1,
-                "chapterTitle": "Advanced Data Structures",
+                "chapterTitle": "Introduction",
                 "chapterContent": [
                     {
                         "lectureId": " lecture1",
-                        "lectureTitle": "Lists and Tuples",
+                        "lectureTitle": "Intro and setUp",
                         "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "lectureUrl": "https://www.youtube.com/embed/wdp7smAtqZI",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
                     {
                         "lectureId": "lecture2",
-                        "lectureTitle": "Dictionaries and Sets",
+                        "lectureTitle": "Python basics",
                         "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "lectureUrl": "https://www.youtube.com/embed/Ryg5EZi-rqE",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -319,21 +319,21 @@ export const dummyCourses = [
             {
                 "chapterId": "chapter2",
                 "chapterOrder": 2,
-                "chapterTitle": "Object-Oriented Programming",
+                "chapterTitle": "Classe and Module",
                 "chapterContent": [
                     {
                         "lectureId": "lecture3",
-                        "lectureTitle": "Classes and Objects",
+                        "lectureTitle": "Classes",
                         "lectureDuration": 900,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "lectureUrl": "https://www.youtube.com/embed/OHT0wGUz5GI",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
                     {
                         "lectureId": "lecture4",
-                        "lectureTitle": "Inheritance and Polymorphism",
+                        "lectureTitle": "Modules",
                         "lectureDuration": 950,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
+                        "lectureUrl": "https://www.youtube.com/embed/8f5LUaUlb8g",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
